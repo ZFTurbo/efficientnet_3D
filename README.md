@@ -1,6 +1,6 @@
 # EfficientNet 3D Keras (and TF.Keras)
 
-The repository contains 3D variants EfficientNet models for classification. 
+The repository contains 3D variants of EfficientNet models for classification. 
 
 This repository is based on great [efficientnet](https://github.com/qubvel/efficientnet) repo by [@qubvel](https://github.com/qubvel/)
 
@@ -21,7 +21,7 @@ This repository is based on great [efficientnet](https://github.com/qubvel/effic
 import efficientnet_3D.keras as efn 
 # import efficientnet_3D.tfkeras as efn
 
-model = efn.EfficientNetB0(input_shape=(64, 64, 64, 3), include_top=False, weights='imagenet')
+model = efn.EfficientNetB0(input_shape=(64, 64, 64, 3), weights='imagenet')
 ```
 
 ### Related repositories
@@ -33,4 +33,4 @@ model = efn.EfficientNetB0(input_shape=(64, 64, 64, 3), include_top=False, weigh
  
 ### Unresolved problems
 
-* There is no DepthwiseConv3D layer in keras, so repo used custom layer from [this repo](https://github.com/alexandrosstergiou/keras-DepthwiseConv3D) by [@alexandrosstergiou]( https://github.com/alexandrosstergiou/keras-DepthwiseConv3D) which can be slow.
+* There is no DepthwiseConv3D layer in keras, so repo used custom layer from [this repo](https://github.com/alexandrosstergiou/keras-DepthwiseConv3D) by [@alexandrosstergiou]( https://github.com/alexandrosstergiou/keras-DepthwiseConv3D).
