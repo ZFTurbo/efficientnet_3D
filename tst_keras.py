@@ -18,8 +18,8 @@ def tst_keras():
     except:
         import efficientnet_3D.tfkeras as efn
 
-    weights = None
-    model = efn.EfficientNetB0(input_shape=(64, 64, 64, 3), weights=weights)
+    weights = 'imagenet'
+    model = efn.EfficientNetB0(input_shape=(64, 64, 64, 3), weights=weights, pooling='avg')
     print(model.summary())
     model = efn.EfficientNetB1(input_shape=(64, 64, 64, 3), weights=weights)
     print(model.summary())

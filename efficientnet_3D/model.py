@@ -876,7 +876,7 @@ def EfficientNet(width_coefficient,
 
 
 def EfficientNetB0(
-        include_top=True,
+        include_top=False,
         weights='imagenet',
         input_tensor=None,
         input_shape=None,
@@ -895,7 +895,7 @@ def EfficientNetB0(
 
 
 def EfficientNetB1(
-        include_top=True,
+        include_top=False,
         weights='imagenet',
         input_tensor=None,
         input_shape=None,
@@ -913,7 +913,7 @@ def EfficientNetB1(
     )
 
 
-def EfficientNetB2(include_top=True,
+def EfficientNetB2(include_top=False,
                    weights='imagenet',
                    input_tensor=None,
                    input_shape=None,
@@ -930,7 +930,7 @@ def EfficientNetB2(include_top=True,
     )
 
 
-def EfficientNetB3(include_top=True,
+def EfficientNetB3(include_top=False,
                    weights='imagenet',
                    input_tensor=None,
                    input_shape=None,
@@ -948,7 +948,7 @@ def EfficientNetB3(include_top=True,
 
 
 def EfficientNetB4(
-        include_top=True,
+        include_top=False,
         weights='imagenet',
         input_tensor=None,
         input_shape=None,
@@ -967,7 +967,7 @@ def EfficientNetB4(
 
 
 def EfficientNetB5(
-        include_top=True,
+        include_top=False,
         weights='imagenet',
         input_tensor=None,
         input_shape=None,
@@ -986,7 +986,7 @@ def EfficientNetB5(
 
 
 def EfficientNetB6(
-        include_top=True,
+        include_top=False,
         weights='imagenet',
         input_tensor=None,
         input_shape=None,
@@ -1005,7 +1005,7 @@ def EfficientNetB6(
 
 
 def EfficientNetB7(
-        include_top=True,
+        include_top=False,
         weights='imagenet',
         input_tensor=None,
         input_shape=None,
@@ -1024,7 +1024,7 @@ def EfficientNetB7(
 
 
 def EfficientNetL2(
-        include_top=True,
+        include_top=False,
         weights='imagenet',
         input_tensor=None,
         input_shape=None,
