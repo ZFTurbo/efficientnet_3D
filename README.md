@@ -8,7 +8,10 @@ This repository is based on great [efficientnet](https://github.com/qubvel/effic
 
 * keras >= 2.2.0 and tensorflow >= 1.13
 * keras_applications >= 1.0.7
-* scikit-image
+
+### Installation
+
+`pip install efficientnet-3D` 
 
 ### Examples 
 
