@@ -6,8 +6,8 @@ This repository is based on great [efficientnet](https://github.com/qubvel/effic
 
 ### Requirements
 
-* keras >= 2.2.0 and tensorflow >= 1.13
-* keras_applications >= 1.0.7
+* tensorflow >= 2.3.2
+* keras_applications >= 1.0.8
 
 ### Installation
 
